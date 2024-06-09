@@ -1,0 +1,127 @@
+.mainEL {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: -17.5em;
+  padding-bottom: 2em;
+  background-image: linear-gradient(to bottom right, #2b4162, #0f0f0f);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.HeroEL {
+  margin-top: 3em;
+  width: 40.625em;
+  height: 25em;
+  margin-left: 4em;
+  background-color: rgba(15, 15, 15, 0.4);
+  border-radius: 0.625em;
+  background-repeat: no-repeat;
+}
+
+.headerEl {
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 600;
+  width: 13em;
+  height: 2em;
+  margin-left: 0em;
+  color: #fefeff;
+}
+.paragraph {
+  font-family: poppins;
+  margin-top: 1em;
+  width: 32em;
+  height: 8.125em;
+  margin-left: 2em;
+  color: #fefeff;
+  font-size: 1rem;
+  margin-top: 3em;
+}
+
+.buttonEl {
+  margin-top: 6em;
+  padding: 0px;
+  margin-left: 2.2em;
+  background: #fe6d73;
+  border: none;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 0.24em;
+  color: #f7fff7;
+  outline: none;
+  font-family: poppins;
+  width: 11.25em;
+  height: 2.5em;
+  cursor: pointer;
+}
+.vectorImg {
+  width: 18.75em;
+  height: 20em;
+  margin-top: 9em;
+  margin-left: 12em;
+}
+
+@media (max-width: 768px) {
+  .mainEL {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #2b4162, #0f0f0f);
+    width: 760px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-bottom: -10em;
+  }
+  .HeroEL {
+    margin-top: 20em;
+    width: 35em;
+    height: 13.75em;
+    margin-left: 2em;
+    background-color: rgba(15, 15, 15, 0.4);
+    border-radius: 0.625em;
+  }
+
+  .headerEl {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 25em;
+    width: 21.875em;
+    margin-left: 1em;
+    color: #fefeff;
+  }
+  .paragraph {
+    font-family: poppins;
+    margin-top: 1em;
+    width: 31.25em;
+    height: 8.125em;
+    margin-left: 1.8em;
+    color: #fefeff;
+    font-size: 0.9rem;
+  }
+
+  .buttonEl {
+    margin-top: 2em;
+    padding: 0px;
+    margin-left: 0.5em;
+    background: #fe6d73;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 0.24em;
+    color: #f7fff7;
+    outline: none;
+    font-family: poppins;
+    width: 11.25em;
+    height: 2.5em;
+    cursor: pointer;
+  }
+  .vectorImg {
+    display: flex;
+    position: relative;
+    width: 18.75em;
+    height: 20em;
+    top: -40em;
+    margin-left: 10em;
+  }
+}

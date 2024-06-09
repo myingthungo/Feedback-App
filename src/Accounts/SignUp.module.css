@@ -1,0 +1,289 @@
+
+.container{
+    display: flex;
+    padding: 4em;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color:#e0e1dd;
+    height: 25em;
+    height: 20em;
+    margin-bottom: -10em;
+    margin-top: -1em;
+  
+}
+ .signupForm{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    margin-left:-6em;
+    padding:1em;
+    margin-top: 1em;
+    background-color: rgba(15, 15, 15, 0.2);
+    width: 42em;
+    height: 25em;
+    border-radius: .40em;
+    
+    
+ }
+
+ 
+.logo{
+    display: flex;
+    
+    text-decoration: underline;
+    position: relative;
+    left:16em;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .25em;
+    padding-top: 1em;
+    opacity: 70%;
+    margin-top:1.2em;
+    
+}
+
+.firstName{
+    display: flex;
+    margin-left: 3em;
+    margin-top: 8em;
+    width:20em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+    
+}
+
+.lastName{
+    display: flex;
+    margin-top: -2.2em;
+    margin-left: 26em;
+    width:20em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+    
+}
+.email{
+    display: flex;
+    margin-top:2em;
+    margin-left: 3em;
+    width:20em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+}
+.country{
+    display: flex;
+    margin:-2.2em;
+    margin-left: 26em;
+    width:20em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+}
+
+.password{
+    display: flex;
+    margin-top:4em;
+    margin-left: 3em;
+    width:20em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+}
+
+.confirmPassword{
+    display: flex;
+    margin-top:-2.2em;
+    margin-left: 26em;
+    width:20em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+}
+
+.checked{
+    margin-top:1em;
+    margin-left: 3em;
+    width:1em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+}
+
+.Agree{
+    margin-left: 4em;
+    margin-top: -1.6em;
+    color: #e0e1dd;
+    font-size: 1rem;
+    height: 2em;
+   
+ 
+}
+
+.button{
+    display: flex;
+    margin-left: 18em;
+    font-size: 1rem;
+    border-radius: .30em;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .22em;
+    opacity: 90%;
+    cursor: pointer;
+   
+}
+
+@media (max-width: 768px) {
+    
+    .container{
+    display: flex;
+   
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color:#e0e1dd;
+    margin-bottom:18em;
+  
+}
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-top: 1em;
+    background: rgba(15, 15, 15, 0.2);
+    margin-left: -18.5em;
+    width: 35em;
+    height: 25em;
+    border-radius: .40em;
+    
+}
+
+ 
+.logo{
+    display: flex;
+    text-decoration: underline;
+    position: relative;
+    left: 3em;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .25em;
+    padding-top: 1em;
+    opacity: 70%;
+    margin-top:.25em;
+    
+}
+
+.firstName{
+    display: flex;
+    margin-left: -17em;
+    margin-top: 8em;
+    width:16em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+    
+}
+
+.lastName{
+    display: flex;
+    margin-top: -2.2em;
+    margin-left: 19em;
+    width:16em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+    
+}
+.email{
+    display: flex;
+    margin-top:2em;
+    margin-left: -17em;
+    width:16em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+}
+.country{
+    display: flex;
+    margin:-2.2em;
+    margin-left: 17em;
+    width:16em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+}
+
+.password{
+    display: flex;
+    margin-top:2em;
+    margin-left: -17em;
+    width:16em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+}
+
+.confirmPassword{
+    display: flex;
+    margin-top:-2.2em;
+    margin-left: 19.5em;
+    width:16em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+}
+
+.checked{
+    margin-top:1em;
+    margin-left: 3em;
+    width:1em ;
+    height: 2em;
+    background: none;
+    border: .2px solid #e0e1dd;
+    border-radius: .20em;
+}
+
+.Agree{
+    margin-left: 4em;
+    margin-top: -1.6em;
+    color: #e0e1dd;
+    font-size: 1rem;
+    height: 2em;
+   
+ 
+}
+
+.button{
+    display: flex;
+    margin-left: 0em;
+    font-size: 1rem;
+    border-radius: .30em;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .22em;
+    opacity: 90%;
+    border: none;
+    cursor: pointer;
+   
+}
+
+}

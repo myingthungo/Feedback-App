@@ -1,0 +1,176 @@
+.container{
+  display: flex;
+  box-sizing: border-box;
+  background-color: rgba(15, 15, 15, 0.2);
+  background-repeat: no-repeat;
+  width: 27em;
+  height: 30em;
+  border-radius: 0.3125em;
+  color: #edede9;
+  align-content: center;
+  margin-top: 2em; 
+  -webkit-box-sizing: border-box;
+   margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.loginEl{
+    position: relative;
+    left: 6.5em;
+    font-family: roboto;
+    font-size: 1.8rem;
+    font-weight: 500;
+    opacity: 70%;
+
+}
+    
+
+.formEL{
+  display: block;
+   margin-top: 8em;
+  
+}
+
+.emailEl{
+    position: relative;
+    bottom: 1.5625em;
+    left: 6.25em;
+    font-family: roboto;
+    font-size: 1rem;
+    letter-spacing: 0.25em;
+}
+
+.emailInput{
+    
+    position: relative;
+    right: 25px;
+    width: 24.3em;
+    height:1.875em;
+    border-radius: 0.3125em;
+    border: .2px solid #e0e1dd;
+    background: none;
+    color: #edede9;
+    font-family: roboto;
+    
+    
+    
+}
+input{
+    padding-left: 0.625em;
+}
+input[placeholder="Email"]::placeholder {
+   text-align: start;
+   padding-left:0.625em ; 
+  }
+
+.passwordEl{
+   
+    position: relative;
+    top: 1.25em;
+    left: 6.25em;
+    font-family: roboto;
+    font-size: 1rem;
+    color: #edede9;
+    letter-spacing: 0.25em;
+    
+}
+
+.passwordInput{
+    
+    position: relative;
+    margin-top: 2.5em;
+    right: 1.5625em;
+    width: 24em;
+    height:2.5em;
+    border-radius:  0.3125em;
+    border: .2px solid #e0e1dd;
+    background: none;
+    color: #edede9;
+    font-family: roboto;
+    
+}
+
+input[placeholder="Password"]::placeholder {
+    text-align: start;
+    padding-left: 0.625em ; 
+   
+  }
+
+  .submitBtn{
+    
+    position: relative;
+    margin-top: 2.5em;
+    right: 1.5625em;
+    height:2.5em;
+    width: 20.9375em;
+    border-radius: 0.3125em;
+    border: none;
+    font-family: roboto;
+    font-size: 1rem;
+    letter-spacing: 0.25em;
+    font-weight: 600;
+    cursor: pointer;
+    
+  }
+  button[type="submit"] {
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 0;
+    padding-right: auto;
+  }
+
+  .containerTwo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 25em;
+    right:22.8125em;
+    gap: 8.3em;
+  }
+  .signUp{
+    height: 1.25em;
+    color: #edede9;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: roboto;
+    letter-spacing: 0.0625em;
+    
+  }
+  .forgotPassword{
+    width: 10em;
+    height: 1.25em;
+    color: #edede9;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: roboto;
+    letter-spacing: 0.0625em;
+  }
+
+  @media (max-width: 768px) {
+
+    .container{
+      display: flex;
+      box-sizing: border-box;
+      background-color: rgba(15, 15, 15, 0.2);
+      background-repeat: no-repeat;
+      width: 27em;
+      height: 30em;
+      border-radius: 0.3125em;
+      color: #edede9;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: 4em;
+      margin-bottom: -1em;
+      -webkit-box-sizing: border-box;
+      
+  }
+
+
+  }

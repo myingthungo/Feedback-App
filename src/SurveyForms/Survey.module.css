@@ -1,0 +1,333 @@
+
+.container {
+  place-items: center;
+  margin-top:1.5em;
+  width: 60vw;
+  height: 70vh;
+  background-color: rgba(15, 15, 15, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-bottom:0;
+  margin-left:auto;
+  margin-right: auto;
+  color: #e0e1dd;
+
+  
+ 
+}
+
+.banner{
+    display: grid;
+    grid-row: auto;
+    justify-items: center; /* Aligns items horizontally to the center */
+    align-items: center; 
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    margin-top: .20em;
+    font-weight: 600;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(49, 48, 48, 0.3);
+   
+}
+
+    .Question> label{
+        display: grid;
+        justify-items: center; /* Aligns items horizontally to the center */
+        align-items: center; 
+        
+        width: 100%;
+        
+        font-family: roboto;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        margin-bottom: 2em;
+       
+       
+        
+    }
+    .optionsContainer{
+        display: grid;
+        grid-template-rows: auto auto auto; /* Three rows of auto height */
+        grid-template-columns: 1fr 1fr ;
+        margin-top: -10em;
+        margin: auto;
+        font-family: roboto;
+        letter-spacing: 1px;
+        font-size: .90em;
+        padding: 1em;
+        justify-items: center; /* Aligns items horizontally to the center */
+        align-items: center; /* Aligns items vertically to the center */
+        height:8em;
+        width: 50em;
+    }
+
+    
+
+.followUp{
+    font-family: roboto;
+    font-size: 1rem;
+    position: relative;
+    right:4em;
+    padding-top: 4em;
+    
+}
+.nameBox{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.followup{
+    width: 250px;
+    height: 2em;
+    border-radius: 0.3125em;
+    border: .2px solid #e0e1dd;
+    background: none;
+    color: #edede9;
+    font-family: roboto;
+    gap: -2em;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+input[type="text"]::placeholder {
+  
+    text-align: center;
+   
+}
+ .inputText{
+    display: grid;
+    position: absolute;
+    right: 40em;
+    margin-top: 1em;
+     width: 20%;
+     height: 70px;
+    border-radius: 4px;
+    border: none;
+ }
+
+.textarea {
+    display: grid;
+    margin: auto;
+    width: 750px;
+    height: 80px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #333;
+    place-items: center;
+    /* Add more styles as needed */
+  }
+.previous{
+    display: flex;
+    position: relative;
+    bottom: -9.20em;
+    left: 20em;
+    width: 5em;
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    font-family: Montserrat;
+    margin: 0;
+    
+}
+.nextBtn{
+    display: flex;
+    position: absolute;
+    padding-left: 1em;
+    padding-right: 1em;
+    top:41em;
+    left: 60em;
+    width: 5em;
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    font-family: Montserrat;
+    margin-bottom: 0;
+}
+.submit{
+    display: flex;
+    position: absolute;
+    padding-left: 1em;
+    padding-right: 1em;
+    top:41.10em;
+    left: 60em;
+    width: 5em;
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    align-content: center;
+    font-family: Montserrat;
+    box-sizing: border-box;
+    margin: 0;
+} 
+
+    .message{
+        display: block;
+        text-align: center;
+        align-content: center;
+        font-family: Montserrat;
+        font-size: 1.7rem;
+        color: #edede9;
+        position: relative;
+        top: 6em;
+
+    }
+
+@media (max-width: 768px) {
+    
+.container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-top:2.5em;
+    width: 60vw;
+    height: 75vh;
+    background-color: rgba(15, 15, 15, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-bottom: -2;
+    margin-left:auto;
+    margin-right: auto;
+    color: #e0e1dd;
+  }
+
+  .banner{
+    display: grid;
+    grid-row: auto;
+    width: 285px;
+    justify-items: center; /* Aligns items horizontally to the center */
+    align-items: center; 
+    font-family: Montserrat;
+    font-size: 1rem;
+    margin-top: .20em;
+    font-weight: 600;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(49, 48, 48, 0.3);
+   
+    
+}
+.optionsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10em;
+    margin: auto;
+    font-family: roboto;
+    letter-spacing: 1px;
+    font-size: .90em;
+    padding: 1em;
+    justify-items: center; /* Aligns items horizontally to the center */
+    align-items: center; /* Aligns items vertically to the center */
+    height:8em;
+    width: 50em;
+}
+
+  .Question> label{
+    display: flex;
+    justify-items: center; /* Aligns items horizontally to the center */
+    align-items: center; 
+    width: 300px;
+   position: relative;
+   left: 14em;
+    
+    font-family: roboto;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 2em;
+   
+   
+    
+}
+.textarea {
+    display: grid;
+    position: absolute;
+    top: 30em;
+    margin: auto;
+    width: 300px;
+    height: 80px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #333;
+    place-items: center;
+}
+.inputText{
+    display: grid;
+    position: absolute;
+    right: 11em;
+    margin-top: 1em;
+     width: 40%;
+     height: 70px;
+    border-radius: 4px;
+    border: none;
+ }
+
+ .previous{
+    display: flex;
+    position: absolute;
+    bottom: 5em;
+    left: 10em;
+    width: 5em;
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    font-family: Montserrat;
+    margin: 0;
+    
+}
+
+ .nextBtn{
+    display: flex;
+    position: absolute;
+    padding-left: 1em;
+    padding-right: 1em;
+    top:42.10em;
+    left: 26em;
+    width: 5em;
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    font-family: Montserrat;
+    margin-bottom: 0;
+}
+.submit{
+    display: flex;
+    position: absolute;
+    padding-left: 1em;
+    padding-right: 1em;
+    top:42.10em;
+    left: 26em;
+    width: 5em;
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    font-family: Montserrat;
+    margin-bottom: 0;
+}
+
+.followup{
+    position: relative;
+    width: 250px;
+    height: 2em;
+    border-radius: 0.3125em;
+    border: .2px solid #e0e1dd;
+    background: none;
+    color: #edede9;
+    font-family: roboto;
+    gap: -2em;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 1em;
+    line-height: 40px;
+}
+ input[type="text"]::placeholder {
+  
+    text-align: center;
+   
+}
+
+
+}

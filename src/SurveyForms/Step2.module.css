@@ -1,0 +1,97 @@
+/* Step2.css */
+#step2 {
+  margin-top: 2.4em;
+}
+.container {
+  max-width: 450px;
+  max-height: 460px;
+  margin: 0 auto;
+  padding: 15px;
+  box-shadow: 0 1px 5px black;
+  background-color: #e2f9f6;
+  border-radius: 5px;
+  position: relative;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.container .rating {
+  padding-bottom: 10px;
+  font-weight: 500;
+  color: #333;
+}
+.star {
+  font-size: 35px;
+}
+.star.active {
+  color: rgba(239, 239, 25, 0.772);
+}
+.container .recmd {
+  width: 95%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 10px;
+}
+
+.container .btn {
+  background-color: #15cdb5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.container .btn:hover {
+  background-color: #27e4cb;
+  border: none;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container .prv {
+  background-color: #15cdb5;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+}
+
+.container .prv:hover {
+  background-color: #27e4cb;
+  border: none;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

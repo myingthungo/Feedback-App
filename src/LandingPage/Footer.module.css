@@ -1,0 +1,45 @@
+
+
+.footerContainer{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 5em;
+    background-color: #edede9;
+    align-items: center;
+    align-content: center;
+    padding: auto;
+   box-sizing: border-box;
+   margin-top: 3em;
+   top: 45em;
+   
+
+   
+}
+
+.trademarkEL{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1d1e2c;
+}
+
+@media (max-width: 768px) {
+    .footerContainer{
+        display: flex;
+        width: 100%;
+        height: 5em;
+        background-color: #edede9;
+        align-items: center;
+        align-content: center;
+        padding: .50em;
+       box-sizing: border-box;
+       position: relative;
+        top: -1em;
+        margin-top:6em;
+    }
+
+
+}
